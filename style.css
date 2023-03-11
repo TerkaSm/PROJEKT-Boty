@@ -117,22 +117,28 @@ body {
     
 }
 
-ul {
-    padding-left: 0;
-    margin-top: 10px;
+.velikosti {
+    display: flex;
 }
 
-ul li {
-    display: inline-block;
-    padding: 9px 9px;
+.prvni,
+.druha, 
+.treti, 
+.ctvrta, 
+.pata, 
+.sesta {
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 12px 0;
 }
 
-.vel-38 {
+.ctvrta {
     color: #f15f42;
     border: 2px solid #f15f42;
     border-radius: 50%;
-    padding: 7px 7px;
+    margin: 0;
 }
+
 
 a {
     color: #fff;
@@ -145,7 +151,7 @@ a {
     padding: 6px 30px;
     display: inline-block;
     line-height: 36px;
-    margin-top: 12px;
+    margin-top: 29px;
 }
 
 a:hover {
